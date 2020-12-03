@@ -27,7 +27,7 @@ Example:
    ```python
    COVID19_PARAMS = {
     "r0": 2.28,
-    "incubation": 5, --> to 8 or something
+    "incubation": 5, #--> to 8 or something
     "percent_mild": 0.8,
     "mild_recovery": (7, 14),
     "percent_severe": 0.2,
