@@ -20,8 +20,7 @@ A covid-19 spreading simulation with real parameters
    python virus.py
    ```
 ### Usage
-If you like, you can modify the script to show your own virus.
-You´ll just know the params and change them
+If you like, you can modify the script to show other virus behavior.
 
 Example:
    ```python
