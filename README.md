@@ -33,8 +33,6 @@ The ```update_text``` method updates the text annotations on the plot to show th
 The ```gen``` method is a generator function used to control the animation. It continues to yield as long as the total number of deaths and recoveries is less than the total number of infected individuals.
 The animate method creates the animation by calling the FuncAnimation function from ```matplotlib.animation```. It uses the ```spread_virus``` method as the animation function and the ```gen``` method to control the frames.
 Finally, the main function creates an instance of the Virus class with the provided COVID-19 parameters and calls the animate method to start the simulation. The simulation is displayed using ```plt.show()```.
-
-> [!WARNING]
    
 ### Usage
 If you like, you can modify the script to show other virus behavior.
